@@ -1,0 +1,12 @@
+@use '../utils/mixins';
+
+.home {
+    
+
+    &__main {
+
+        height: 100vh;
+        border: solid red 2px;
+
+    }
+}

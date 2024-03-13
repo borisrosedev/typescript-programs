@@ -1,0 +1,16 @@
+@use '../utils/mixins';
+
+.landing {
+  &__main {
+    height: 100vh;
+    border: solid green 2px;
+    flex-direction: column;
+  }
+
+  &__actions {
+    width: 500px;
+    display: flex;
+    @include mixins.flex-box(row, center, center);
+    border: solid red 1px;
+  }
+}
